@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+
+	<link rel="stylesheet" type="text/css" href="TicTacToe.css" />
+</head>
+<body>
+	<div id="wins">
+		<p id="p1Wins">Player 1 Wins: 0</p>
+		<p id="p2Wins">Player 2 Wins: 0</p>
+	</div>
+	<h1 id="player">Player 1's turn</h1>
+	<div id="container"><a href="#" onclick="newGame();">
+		<div id="again">
+			<h3>Play again?</h1>
+		</div>
+	</div>
+	<div id="gameMode">
+		<h3 id="gameModeTitle">Game Mode</h3>
+		<button type="button" onclick="setHuman();">Human vs Human</button> </br>
+		<button type="button" onclick="setSimpleAI();">Simple AI</button> </br>
+		<button type="button" onclick="setHarderAI();">Harder AI</button> </br>
+		<button type="button" onclick="newGame();resetWins();">Reset Game</button>
+	</div>
+	<script type="text/javascript" src="TicTacToe.js"></script>
+</body>
+</html>

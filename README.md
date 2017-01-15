@@ -1,5 +1,7 @@
 # TicTacToe
 
+[Play it here](http://www.jaredrboyd.com/tictactoe/TicTacToe.html)
+
 I decided I wanted to create a tic tac toe game, and I have been able to learn a little bit in the process.
 
 I had never used the canvas element before, and was able to teach myself quite a bit about that in the process of making this game. I think what I'm most proud of from this game is the fact that I can rescale the size of the tic tac toe board, and everything will still draw correctly, as well as click detection still working correctly.
